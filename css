@@ -1,0 +1,50 @@
+body{
+    text-align: center;
+    background-color: rgb(153, 137, 194);
+  }
+  h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-transform:uppercase;
+    text-align:center;
+    background-color:rgba(0, 0, 0, 0.3);
+    border-radius: 60%;
+    border: 10px solid black;
+    padding: 80px 20px 80px 20px;
+    margin-left: 200px;
+    margin-right: 200px;
+  }
+
+  #table1 {
+    margin-left: 540px;
+  }
+
+  #table2 {
+    margin-left: 525px;
+  }
+
+  #table3 {
+    margin-left: 455px;
+    margin-bottom: 20px;
+  }
+
+  #table4 {
+    margin-left: 235px;
+    margin-top: 20px;
+  }
+
+  table,th,td{
+    
+    border: 20px solid black;
+    border-radius: 5%;
+  
+  }
+  th{
+    font-weight: bold;
+    background-color: #000000;
+    color:#FFFFFF;
+    font-style: italic;
+  }
+  td{
+    text-align:center;
+    background-color: #FFFFFF;
+  }
