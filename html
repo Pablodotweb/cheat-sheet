@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href='styles.css' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  </head>
+  <header>
+    <h1>HTML5 and CSS Cheat Sheet</h1>
+  </header>
+  <body>
+    <h2>HTML Lists</h2>
+    <p>HTML lists allow web developers to group a set of related items in lists.</p>
+    <table id="table1">
+      <tr>
+        <th></th>
+        <th>Unordered List</th>
+        <th>Ordered List</th>
+      </tr>
+      <tr>
+        <th> Example</th>
+        <td>
+          <ul>
+            <li>Item</li>
+            <li>Item</li>
+            <li>Item</li>
+          </ul>
+        </td>
+        <td>
+          <ol>
+            <li>Item</li>
+            <li>Item</li>
+            <li>Item</li>
+          </ol>
+        </td>
+      </tr>
+      <tr>
+        <th>Tag</th>
+        <td>&ltul&gt</td>
+        <td>&ltol&gt</td>
+      </tr>
+    </table>
+    <h3>Unordered HTML List</h3>
+    <p>An unordered list starts with the &ltul&gt tag. Each list item starts with the &ltli&gt tag.The list items will be marked with bullets (small black circles) by default</p>
+    
+    <p>The CSS list-style-type property is used to define the style of the list item marker. It can have one of the following values:</p>
+
+    <table id="table2">
+      <tr>
+        <th>Value</th>
+        <th>Description</th>
+      </tr>
+      <tr>
+        <td>disc</td>
+        <td>Sets the list item marker to a bullet (default)</td>
+      </tr>
+      <tr>
+        <td>circle</td>
+        <td>Sets the list item marker to a circle</td>
+      </tr>
+      <tr>
+        <td>square</td>
+        <td>Sets the list item marker to a square</td>
+      </tr>
+      <tr>
+        <td>none</td>
+        <td>The list items will not be marked</td>
+      </tr>
+    </table>
+        <h3>Unordered HTML List</h3>
+    <p>The HTML &ltol&gt tag defines an ordered list. An ordered list can be numerical or alphabetical.</p>
+    
+    <p>An ordered list starts with the &ltol&gt tag. Each list item starts with the &ltli&gt tag.The list items will be marked with numbers by default.The type attribute of the &ltol&gt tag, defines the type of the list item marker:</p>
+
+    <table id="table3">
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+      <tr>
+        <td>type="1"</td>
+        <td>The list items will be numbered with numbers (default)</td>
+      </tr>
+      <tr>
+        <td>type="A"</td>
+        <td>The list items will be numbered with uppercase letters</td>
+      </tr>
+      <tr>
+        <td>type="a"</td>
+        <td>The list items will be numbered with lowercase letters</td>
+      </tr>
+      <tr>
+        <td>type="I"</td>
+        <td>The list items will be numbered with uppercase roman numbers</td>
+      </tr>
+      <tr>
+        <td>type="i"</td>
+        <td>The list items will be numbered with lowercase roman numbers</td>
+      </tr>
+    </table>
+
+    <h3>Selectors and Specificty</h3>
+    <p>In CSS, selectors are patterns used to select the element(s) you want to style.</p>
+    <p></p>
+
+    <table id="table4">
+      <tr>
+        <th>Selector</th>
+        <th>Example</th>
+        <th>Description</th>
+      </tr>
+      <tr>
+        <td>.class</td>
+        <td>.intro</td>
+        <td>Selects all elements with class="intro"</td>
+      </tr>
+      <tr>
+        <td>.class1.class2</td>
+        <td>name1.name2</td>
+        <td>Selects all elements with both name1 and name2 set within its class attribute</td>
+      </tr>
+      <tr>
+        <td>.class1 (space) .class2</td>
+        <td>name1 (space) .name2</td>
+        <td>Selects all elements with name2 that is a descendant of an element with name1</td>
+      </tr>
+      <tr>
+        <td>#id</td>
+        <td>#firstname</td>
+        <td>Selects the element with id="firstname"</td>
+      </tr>
+      <tr>
+        <td>*</td>
+        <td>*</td>
+        <td>Selects all elements</td>
+      </tr>
+      <tr>
+        <td>element</td>
+        <td>p</td>
+        <td>Selects all &ltp&gt elements</td>
+      </tr>
+      <tr>
+        <td>element.class</td>
+        <td>p.intro</td>
+        <td>Selects all &ltp&gt elements with class="intro"</td>
+      </tr>
+      <tr>
+        <td>element,element</td>
+        <td>div, p</td>
+        <td>Selects all &ltdiv&gt and all &ltp&gt elements</td>
+      </tr>
+      <tr>
+        <td>element element (no comma)</td>
+        <td>div p</td>
+        <td>Selects all &ltp&gt elements inside &ltdiv&gt elements</td>
+      </tr>
+      <tr>
+        <td>element&gtelement</td>
+        <td>div &gt p</td>
+        <td>Selects all &ltp&gt elements where the parent is a &ltdiv&gt element</td>
+      </tr>
+      <tr>
+        <td>element+element</td>
+        <td>div + p</td>
+        <td>Selects the first &ltp&gt elemment that is placed immmediately after &ltdiv&gt elements</td>
+      </tr>
+    </table>
+
+  </body>
+
+</html>
